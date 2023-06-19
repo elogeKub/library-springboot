@@ -69,4 +69,10 @@ public class Student {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "Student [id=" + id + ", fname=" + fname + ", lname=" + lname + ", address=" + address + ", age=" + age
+                + "]";
+    }
+
 }
